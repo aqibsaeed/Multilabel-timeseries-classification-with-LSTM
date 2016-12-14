@@ -2,11 +2,14 @@
 Tensorflow implementation of model discussed in the following paper: <a href="https://arxiv.org/abs/1511.03677">Learning to Diagnose with LSTM Recurrent Neural Networks</a>.
 
 ### Tools Required
-
 Python 3.5 is used during development and following libraries are required to run the code provided in the notebook:
 
 * Tensorflow
 * Numpy
 * Pandas
 
-<i>Note: If you see mistakes or want to suggest changes, please submit a pull request.</i>
+### Dataset
+<a href="http://mimic.mit.edu/mimicdata/whatsnew/">MIMIC-III</a> dataset can possibly be use to train and test the model. Beware this is not the data set used by the authors of the paper. 
+
+
+<i>Note: If you see mistakes, want to suggest changes or have dataset that can be use to train/test the model, please submit a pull request.</i>
